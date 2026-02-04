@@ -1156,21 +1156,16 @@
                 </div>
               </div>
 
-              <form id="contactForm" class="mt-6 grid gap-4" autocomplete="on" action="https://api.web3forms.com/submit"
-  method="POST">
-                <input type="hidden" name="access_key" value="2fc3b2b4-b9cf-4c33-8d67-255a05950976">
-                 <input type="hidden" name="redirect" value="https://frostfreelancervie.github.io/frostfreelancer/?success=true">
-                 <input type="hidden" name="subject" value="Khách hàng mới từ Website Frost Freelancer">
-                 <input type="checkbox" name="botcheck" class="hidden" style="display:none">
-                 <label class="grid gap-2">
-  <span class="text-xs font-semibold text-slate-200">Nội dung</span>
-  <textarea
-    name="message"
-    required
-    placeholder="Nhập nội dung liên hệ..."
-    class="min-h-[120px] w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-50 outline-none"
-  ></textarea>
-</label>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="2fc3b2b4-b9cf-4c33-8d67-255a05950976">
+
+  <input type="text" name="name" placeholder="Tên" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Nội dung" required></textarea>
+
+  <button type="submit">Gửi</button>
+</form>
+
 
                 <div class="grid gap-4 sm:grid-cols-2">
                   <label class="grid gap-2">
