@@ -1,0 +1,1442 @@
+<html lang="vi"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Thái Duy | Digital Marketing &amp; Dịch vụ Mạng Xã Hội</title>
+  <meta name="description" content="Nguyễn Thái Duy giúp cá nhân và doanh nghiệp khôi phục tài khoản, chạy quảng cáo hiệu quả và xây dựng hệ thống online bền vững bằng giải pháp thực chiến.">
+  <meta name="theme-color" content="#050816">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+</head>
+
+<body class="min-h-screen bg-[#050816] text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-slate-50">
+  <!-- Background glows -->
+  <div class="pointer-events-none fixed inset-0 overflow-hidden">
+    <div class="absolute -top-24 left-1/2 h-[32rem] w-[32rem] -translate-x-1/2 rounded-full bg-gradient-to-tr from-blue-600/35 via-cyan-500/20 to-indigo-500/20 blur-3xl"></div>
+    <div class="absolute -bottom-32 right-[-8rem] h-[28rem] w-[28rem] rounded-full bg-gradient-to-tr from-indigo-600/25 via-blue-500/20 to-cyan-500/15 blur-3xl"></div>
+    <div class="absolute top-40 left-[-10rem] h-[26rem] w-[26rem] rounded-full bg-gradient-to-tr from-sky-500/15 via-blue-600/10 to-indigo-500/10 blur-3xl"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(56,189,248,0.08),transparent_55%),radial-gradient(ellipse_at_bottom,rgba(99,102,241,0.08),transparent_55%)]"></div>
+    <div class="absolute inset-0 opacity-30" style="background-image: linear-gradient(to right, rgba(148,163,184,0.06) 1px, transparent 1px), linear-gradient(to bottom, rgba(148,163,184,0.06) 1px, transparent 1px); background-size: 3rem 3rem;"></div>
+  </div>
+
+  <!-- Top nav -->
+  <header class="relative z-10">
+    <div class="mx-auto max-w-7xl px-6">
+      <div class="flex items-center justify-between py-6">
+        <a href="#top" class="group inline-flex items-center gap-3">
+          <div class="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 backdrop-blur">
+            <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">ND</span>
+          </div>
+          <div class="leading-tight">
+            <div class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">Nguyễn Thái Duy</div>
+            <div class="text-xs text-slate-300">Digital Marketing &amp; Mạng Xã Hội</div>
+          </div>
+        </a>
+
+        <nav class="hidden items-center gap-6 text-sm text-slate-300 lg:flex">
+          <a class="hover:text-slate-50 transition" href="#dich-vu">Dịch vụ</a>
+          <a class="hover:text-slate-50 transition" href="#du-an">Dự án</a>
+          <a class="hover:text-slate-50 transition" href="#quy-trinh">Quy trình</a>
+          <a class="hover:text-slate-50 transition" href="#bang-gia">Gói dịch vụ</a>
+          <a class="hover:text-slate-50 transition" href="#faq">FAQ</a>
+          <a class="hover:text-slate-50 transition" href="#lien-he">Liên hệ</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="#lien-he" class="hidden sm:inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+            Liên hệ ngay
+          </a>
+
+          <button id="menuBtn" class="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 backdrop-blur transition hover:bg-white/10" aria-label="Mở menu">
+            <iconify-icon icon="solar:hamburger-menu-linear" width="20" height="20" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobileMenu" class="hidden pb-6 lg:hidden">
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+          <div class="grid gap-2 text-sm text-slate-200">
+            <a class="rounded-xl px-3 py-2 hover:bg-white/10 transition" href="#dich-vu">Dịch vụ</a>
+            <a class="rounded-xl px-3 py-2 hover:bg-white/10 transition" href="#du-an">Dự án</a>
+            <a class="rounded-xl px-3 py-2 hover:bg-white/10 transition" href="#quy-trinh">Quy trình</a>
+            <a class="rounded-xl px-3 py-2 hover:bg-white/10 transition" href="#bang-gia">Gói dịch vụ</a>
+            <a class="rounded-xl px-3 py-2 hover:bg-white/10 transition" href="#faq">FAQ</a>
+            <a class="rounded-xl px-3 py-2 hover:bg-white/10 transition" href="#lien-he">Liên hệ</a>
+          </div>
+          <div class="mt-4 grid gap-2 sm:grid-cols-2">
+            <a href="#lien-he" class="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:opacity-95">
+              Nhận tư vấn miễn phí
+            </a>
+            <a href="https://www.facebook.com/NguyenThaiDuy.Dev" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+              Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="relative z-10">
+    <!-- SECTION 1: HERO -->
+    <section class="mx-auto max-w-7xl px-6 pt-8 pb-16 sm:pt-12 sm:pb-20 lg:pt-16 lg:pb-24">
+      <div class="grid items-center gap-10 lg:grid-cols-12">
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 backdrop-blur">
+            <span class="inline-flex h-2 w-2 rounded-full bg-cyan-400 shadow-[0_0_0.75rem_rgba(34,211,238,0.6)]"></span>
+            <span>Tập trung hiệu quả thực tế • Minh bạch • Bảo mật</span>
+          </div>
+
+          <h1 class="mt-5 font-[Space_Grotesk] text-4xl font-semibold tracking-tight text-slate-50 sm:text-5xl lg:text-6xl">
+            Giải pháp Digital Marketing &amp; Dịch vụ Mạng Xã Hội Toàn Diện
+          </h1>
+
+          <p class="mt-5 max-w-2xl text-base text-slate-300 sm:text-lg">
+            Nguyễn Thái Duy giúp cá nhân và doanh nghiệp khôi phục tài khoản, chạy quảng cáo hiệu quả và xây dựng hệ thống online bền vững bằng giải pháp thực chiến.
+          </p>
+
+          <div class="mt-7 grid gap-3 sm:flex sm:items-center">
+            <a href="#lien-he" class="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 text-sm font-semibold text-slate-950 shadow-[0_0_0_1px_rgba(255,255,255,0.06),0_12px_40px_rgba(59,130,246,0.25)] transition hover:shadow-[0_0_0_1px_rgba(255,255,255,0.10),0_16px_60px_rgba(34,211,238,0.28)]">
+              <span class="absolute inset-0 opacity-0 transition group-hover:opacity-100" style="background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.20), transparent 45%);"></span>
+              <span class="relative inline-flex items-center gap-2">
+                <iconify-icon icon="solar:chat-round-linear" width="20" height="20" style="color: rgba(2,6,23,0.95);" stroke-width="1.5"></iconify-icon>
+                Nhận tư vấn miễn phí
+              </span>
+            </a>
+
+            <a href="#lien-he" class="group inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-6 py-3 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+              <span class="inline-flex items-center gap-2">
+                <iconify-icon icon="solar:phone-calling-linear" width="20" height="20" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                Liên hệ ngay
+              </span>
+            </a>
+          </div>
+
+          <div class="mt-10 grid gap-3 sm:grid-cols-3">
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <div class="flex items-start gap-3">
+                <div class="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-500/10 ring-1 ring-cyan-400/20">
+                  <iconify-icon icon="solar:lock-unlocked-linear" width="20" height="20" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Mở khóa nhanh</div>
+                  <div class="mt-1 text-xs text-slate-300">Mở khóa Facebook, TikTok nhanh – đúng quy trình</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <div class="flex items-start gap-3">
+                <div class="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-blue-500/10 ring-1 ring-blue-400/20">
+                  <iconify-icon icon="solar:chart-2-linear" width="20" height="20" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Tối ưu chuyển đổi</div>
+                  <div class="mt-1 text-xs text-slate-300">Chạy quảng cáo tối ưu chuyển đổi, không đốt tiền</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <div class="flex items-start gap-3">
+                <div class="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-500/10 ring-1 ring-indigo-400/20">
+                  <iconify-icon icon="solar:code-square-linear" width="20" height="20" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Chuẩn bán hàng</div>
+                  <div class="mt-1 text-xs text-slate-300">Thiết kế website &amp; landing page chuẩn bán hàng</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-400">
+            <div class="inline-flex items-center gap-2">
+              <iconify-icon icon="solar:shield-check-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+              Cam kết bảo mật thông tin
+            </div>
+            <div class="inline-flex items-center gap-2">
+              <iconify-icon icon="solar:document-text-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+              Quy trình minh bạch, có đối soát
+            </div>
+            <div class="inline-flex items-center gap-2">
+              <iconify-icon icon="solar:clock-circle-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+              Tối ưu thời gian triển khai
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+            <div class="absolute -top-10 -right-10 h-40 w-40 rounded-full bg-cyan-500/15 blur-2xl"></div>
+            <div class="absolute -bottom-12 -left-12 h-48 w-48 rounded-full bg-blue-600/15 blur-2xl"></div>
+
+            <div class="relative">
+              <div class="flex items-center justify-between">
+                <div class="text-sm font-semibold text-slate-50">Bảng điều khiển hiệu suất</div>
+                <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">
+                  <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+                  Đang tối ưu
+                </div>
+              </div>
+
+              <div class="mt-5 grid gap-3">
+                <div class="rounded-2xl border border-white/10 bg-black/20 p-4">
+                  <div class="flex items-center justify-between">
+                    <div class="text-xs text-slate-300">Chi phí / Chuyển đổi</div>
+                    <div class="text-xs font-semibold text-emerald-300">Giảm ổn định</div>
+                  </div>
+                  <div class="mt-3 h-2 rounded-full bg-white/5">
+                    <div class="h-2 w-[72%] rounded-full bg-gradient-to-r from-emerald-400/90 to-cyan-400/90"></div>
+                  </div>
+                  <div class="mt-2 text-xs text-slate-400">Tập trung A/B test, tối ưu phễu &amp; tracking</div>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-black/20 p-4">
+                  <div class="flex items-center justify-between">
+                    <div class="text-xs text-slate-300">Tỷ lệ duyệt quảng cáo</div>
+                    <div class="text-xs font-semibold text-cyan-300">Cải thiện</div>
+                  </div>
+                  <div class="mt-3 h-2 rounded-full bg-white/5">
+                    <div class="h-2 w-[64%] rounded-full bg-gradient-to-r from-cyan-400/90 to-blue-500/90"></div>
+                  </div>
+                  <div class="mt-2 text-xs text-slate-400">Chuẩn hóa nội dung, chính sách &amp; tài nguyên</div>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-black/20 p-4">
+                  <div class="flex items-center justify-between">
+                    <div class="text-xs text-slate-300">Độ ổn định tài khoản</div>
+                    <div class="text-xs font-semibold text-indigo-300">Ưu tiên</div>
+                  </div>
+                  <div class="mt-3 h-2 rounded-full bg-white/5">
+                    <div class="h-2 w-[78%] rounded-full bg-gradient-to-r from-indigo-400/90 to-sky-400/90"></div>
+                  </div>
+                  <div class="mt-2 text-xs text-slate-400">Quy trình an toàn, lưu vết &amp; hỗ trợ sau xử lý</div>
+                </div>
+              </div>
+
+              <div class="mt-6 grid gap-3 sm:grid-cols-2">
+                <a href="#du-an" class="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+                  <iconify-icon icon="solar:case-round-linear" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                  Xem dự án tiêu biểu
+                </a>
+                <a href="#bang-gia" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/10 px-4 py-2 text-sm font-medium text-slate-50 transition hover:bg-white/15">
+                  <iconify-icon icon="solar:tag-price-linear" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                  Chọn gói phù hợp
+                </a>
+              </div>
+
+              <div class="mt-5 rounded-2xl border border-white/10 bg-gradient-to-r from-cyan-500/10 to-blue-600/10 p-4">
+                <div class="flex items-start gap-3">
+                  <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-white/5">
+                    <iconify-icon icon="solar:verified-check-linear" width="20" height="20" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+                  </div>
+                  <div>
+                    <div class="text-sm font-semibold text-slate-50">Tư vấn đúng vấn đề</div>
+                    <div class="mt-1 text-xs text-slate-300">Đánh giá rủi ro – đề xuất lộ trình – triển khai theo checklist an toàn.</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <p class="mt-4 text-xs text-slate-400">
+            Bằng việc liên hệ, bạn đồng ý nhận tư vấn và nội dung hỗ trợ liên quan đến dịch vụ. Thông tin được bảo mật theo chính sách của chúng tôi.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT -->
+    <section class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div class="grid gap-10 lg:grid-cols-12 lg:items-start">
+        <div class="lg:col-span-5">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 backdrop-blur">
+            <iconify-icon icon="solar:users-group-rounded-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+            Đồng hành tăng trưởng
+          </div>
+
+          <h2 class="mt-4 font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+            Nguyễn Thái Duy – Agency Đồng Hành Cùng Sự Tăng Trưởng Online
+          </h2>
+
+          <div class="mt-4 space-y-4 text-sm text-slate-300 sm:text-base">
+            <p>
+              Chúng tôi là Agency chuyên cung cấp dịch vụ Digital Marketing và giải pháp mạng xã hội, tập trung vào hiệu quả thực tế thay vì những lời hứa hoa mỹ.
+            </p>
+            <p>
+              Nguyễn Thái Duy không chỉ giúp bạn giải quyết các vấn đề trước mắt như khóa tài khoản hay quảng cáo kém hiệu quả, mà còn đồng hành xây dựng hệ thống online ổn định, lâu dài và có thể mở rộng.
+            </p>
+          </div>
+
+          <div class="mt-8 grid gap-3 sm:grid-cols-2">
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <div class="flex items-start gap-3">
+                <div class="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-white/5 ring-1 ring-white/10">
+                  <iconify-icon icon="solar:document-add-linear" width="20" height="20" style="color: rgba(226,232,240,0.9);" stroke-width="1.5"></iconify-icon>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Minh bạch</div>
+                  <div class="mt-1 text-xs text-slate-300">Rõ ràng trong quy trình</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <div class="flex items-start gap-3">
+                <div class="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-white/5 ring-1 ring-white/10">
+                  <iconify-icon icon="solar:target-linear" width="20" height="20" style="color: rgba(226,232,240,0.9);" stroke-width="1.5"></iconify-icon>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Hiệu quả</div>
+                  <div class="mt-1 text-xs text-slate-300">Thực tế, đo lường được</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <div class="flex items-start gap-3">
+                <div class="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-white/5 ring-1 ring-white/10">
+                  <iconify-icon icon="solar:shield-user-linear" width="20" height="20" style="color: rgba(226,232,240,0.9);" stroke-width="1.5"></iconify-icon>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Bảo mật</div>
+                  <div class="mt-1 text-xs text-slate-300">Thông tin khách hàng</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <div class="flex items-start gap-3">
+                <div class="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-white/5 ring-1 ring-white/10">
+                  <iconify-icon icon="solar:hand-shake-linear" width="20" height="20" style="color: rgba(226,232,240,0.9);" stroke-width="1.5"></iconify-icon>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Đồng hành</div>
+                  <div class="mt-1 text-xs text-slate-300">Lâu dài, không làm cho xong</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur sm:p-8">
+            <div class="flex flex-col gap-6">
+              <div class="flex items-start justify-between gap-4">
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Chuẩn hóa hệ thống tăng trưởng</div>
+                  <div class="mt-1 text-xs text-slate-300">Từ “xử lý sự cố” đến “vận hành bền vững”</div>
+                </div>
+                <div class="hidden sm:flex items-center gap-2 rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">
+                  <iconify-icon icon="solar:settings-linear" width="16" height="16" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+                  Checklist theo ngành
+                </div>
+              </div>
+
+              <div class="grid gap-4 sm:grid-cols-2">
+                <div class="rounded-2xl border border-white/10 bg-black/20 p-5">
+                  <div class="flex items-start gap-3">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-500/10 ring-1 ring-cyan-400/20">
+                      <iconify-icon icon="solar:route-linear" width="20" height="20" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+                    </div>
+                    <div>
+                      <div class="text-sm font-semibold text-slate-50">Lộ trình rõ ràng</div>
+                      <div class="mt-1 text-xs text-slate-300">Từng bước: audit → kế hoạch → triển khai → tối ưu.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-black/20 p-5">
+                  <div class="flex items-start gap-3">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-500/10 ring-1 ring-blue-400/20">
+                      <iconify-icon icon="solar:graph-new-linear" width="20" height="20" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+                    </div>
+                    <div>
+                      <div class="text-sm font-semibold text-slate-50">Đo lường &amp; báo cáo</div>
+                      <div class="mt-1 text-xs text-slate-300">Theo dõi chỉ số quan trọng, cập nhật theo tuần/tháng.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-black/20 p-5">
+                  <div class="flex items-start gap-3">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-500/10 ring-1 ring-indigo-400/20">
+                      <iconify-icon icon="solar:server-2-linear" width="20" height="20" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+                    </div>
+                    <div>
+                      <div class="text-sm font-semibold text-slate-50">Hạ tầng &amp; tracking</div>
+                      <div class="mt-1 text-xs text-slate-300">Pixel, GA4, sự kiện, chuyển đổi, UTM, chuẩn dữ liệu.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-black/20 p-5">
+                  <div class="flex items-start gap-3">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10 ring-1 ring-emerald-400/20">
+                      <iconify-icon icon="solar:shield-network-linear" width="20" height="20" style="color: rgba(52,211,153,0.95);" stroke-width="1.5"></iconify-icon>
+                    </div>
+                    <div>
+                      <div class="text-sm font-semibold text-slate-50">An toàn tài khoản</div>
+                      <div class="mt-1 text-xs text-slate-300">Giảm rủi ro, tuân thủ chính sách, lưu vết bàn giao.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-white/0 p-5">
+                <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                  <div>
+                    <div class="text-sm font-semibold text-slate-50">Bạn cần xử lý gấp hoặc muốn tăng trưởng dài hạn?</div>
+                    <div class="mt-1 text-xs text-slate-300">Gửi thông tin, chúng tôi phản hồi nhanh với phương án phù hợp mức rủi ro và mục tiêu.</div>
+                  </div>
+                  <a href="#lien-he" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/10 px-5 py-2.5 text-sm font-medium text-slate-50 transition hover:bg-white/15">
+                    <iconify-icon icon="solar:letter-linear" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                    Gửi yêu cầu
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="mt-6 grid gap-4 sm:grid-cols-3">
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center backdrop-blur">
+              <div class="font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50">Tập trung</div>
+              <div class="mt-1 text-xs text-slate-300">Đúng vấn đề, đúng ưu tiên</div>
+            </div>
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center backdrop-blur">
+              <div class="font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50">Chuẩn hóa</div>
+              <div class="mt-1 text-xs text-slate-300">Theo checklist &amp; tài liệu</div>
+            </div>
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center backdrop-blur">
+              <div class="font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50">Bền vững</div>
+              <div class="mt-1 text-xs text-slate-300">Hệ thống vận hành ổn định</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SERVICES -->
+    <section id="dich-vu" class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 backdrop-blur">
+            <iconify-icon icon="solar:widget-2-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+            Dịch vụ trọng tâm
+          </div>
+          <h2 class="mt-4 font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+            Dịch vụ thiết kế để ra kết quả
+          </h2>
+          <p class="mt-3 max-w-2xl text-sm text-slate-300 sm:text-base">
+            Từ xử lý tài khoản đến vận hành quảng cáo và xây dựng nền tảng web—tất cả được triển khai theo quy trình an toàn, minh bạch và có đo lường.
+          </p>
+        </div>
+        <div class="flex gap-3">
+          <a href="#bang-gia" class="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+            Xem gói dịch vụ
+          </a>
+          <a href="#lien-he" class="inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:opacity-95">
+            Nhận tư vấn miễn phí
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <article class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:-translate-y-1 hover:bg-white/7 hover:shadow-[0_18px_60px_rgba(59,130,246,0.18)]">
+          <div class="flex items-start gap-4">
+            <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-cyan-500/10 ring-1 ring-cyan-400/20">
+              <iconify-icon icon="solar:lock-keyhole-linear" width="22" height="22" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+            <div>
+              <h3 class="text-base font-semibold text-slate-50">Mở khóa &amp; khôi phục tài khoản</h3>
+              <p class="mt-2 text-sm text-slate-300">Facebook, TikTok bị khóa, checkpoint, hạn chế quảng cáo</p>
+              <div class="mt-4 inline-flex items-center gap-2 text-xs text-slate-400">
+                <iconify-icon icon="solar:check-circle-linear" width="16" height="16" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+                Ưu tiên an toàn, đúng quy trình
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:-translate-y-1 hover:bg-white/7 hover:shadow-[0_18px_60px_rgba(34,211,238,0.14)]">
+          <div class="flex items-start gap-4">
+            <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-500/10 ring-1 ring-blue-400/20">
+              <iconify-icon icon="solar:pie-chart-2-linear" width="22" height="22" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+            <div>
+              <h3 class="text-base font-semibold text-slate-50">Chạy quảng cáo đa nền tảng</h3>
+              <p class="mt-2 text-sm text-slate-300">Facebook Ads, TikTok Ads, Google Ads</p>
+              <div class="mt-4 inline-flex items-center gap-2 text-xs text-slate-400">
+                <iconify-icon icon="solar:check-circle-linear" width="16" height="16" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+                Tối ưu theo KPI &amp; phễu bán hàng
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:-translate-y-1 hover:bg-white/7 hover:shadow-[0_18px_60px_rgba(129,140,248,0.14)]">
+          <div class="flex items-start gap-4">
+            <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-indigo-500/10 ring-1 ring-indigo-400/20">
+              <iconify-icon icon="solar:compass-linear" width="22" height="22" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+            <div>
+              <h3 class="text-base font-semibold text-slate-50">Digital Marketing tổng thể</h3>
+              <p class="mt-2 text-sm text-slate-300">Tư vấn chiến lược, xây dựng thương hiệu online</p>
+              <div class="mt-4 inline-flex items-center gap-2 text-xs text-slate-400">
+                <iconify-icon icon="solar:check-circle-linear" width="16" height="16" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+                Lộ trình tăng trưởng theo giai đoạn
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:-translate-y-1 hover:bg-white/7 hover:shadow-[0_18px_60px_rgba(52,211,153,0.12)]">
+          <div class="flex items-start gap-4">
+            <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-500/10 ring-1 ring-emerald-400/20">
+              <iconify-icon icon="solar:database-linear" width="22" height="22" style="color: rgba(52,211,153,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+            <div>
+              <h3 class="text-base font-semibold text-slate-50">Cung cấp tài nguyên mạng xã hội</h3>
+              <p class="mt-2 text-sm text-slate-300">BM, Via, Fanpage, tài khoản quảng cáo, tool hỗ trợ</p>
+              <div class="mt-4 inline-flex items-center gap-2 text-xs text-slate-400">
+                <iconify-icon icon="solar:check-circle-linear" width="16" height="16" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+                Tư vấn dùng đúng mục đích &amp; rủi ro
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:-translate-y-1 hover:bg-white/7 hover:shadow-[0_18px_60px_rgba(59,130,246,0.16)] md:col-span-2 xl:col-span-1">
+          <div class="flex items-start gap-4">
+            <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-sky-500/10 ring-1 ring-sky-400/20">
+              <iconify-icon icon="solar:window-frame-linear" width="22" height="22" style="color: rgba(56,189,248,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+            <div>
+              <h3 class="text-base font-semibold text-slate-50">Thiết kế Website &amp; Landing Page</h3>
+              <p class="mt-2 text-sm text-slate-300">Website doanh nghiệp, landing page bán hàng, landing page chạy ads</p>
+              <div class="mt-4 inline-flex items-center gap-2 text-xs text-slate-400">
+                <iconify-icon icon="solar:check-circle-linear" width="16" height="16" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+                Tối ưu tốc độ, chuyển đổi &amp; nội dung
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Case studies -->
+    <section id="du-an" class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 backdrop-blur">
+            <iconify-icon icon="solar:case-minimalistic-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+            Dự án tiêu biểu
+          </div>
+          <h2 class="mt-4 font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">Một vài kết quả nổi bật theo từng bài toán</h2>
+          <p class="mt-3 max-w-2xl text-sm text-slate-300 sm:text-base">
+            Mỗi dự án đều bắt đầu từ việc đánh giá rủi ro, xác định mục tiêu và triển khai theo checklist—để đảm bảo an toàn tài khoản và hiệu quả đầu tư.
+          </p>
+        </div>
+        <a href="#lien-he" class="inline-flex items-center justify-center rounded-2xl bg-white/10 px-5 py-2.5 text-sm font-medium text-slate-50 transition hover:bg-white/15">
+          Nhận lộ trình cho ngành của bạn
+        </a>
+      </div>
+
+      <div class="mt-10 grid gap-5 lg:grid-cols-3">
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-center justify-between gap-3">
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">
+              <iconify-icon icon="solar:lock-unlocked-linear" width="16" height="16" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+              Khôi phục Facebook
+            </div>
+            <div class="text-xs text-slate-400">B2C • Dịch vụ</div>
+          </div>
+
+          <h3 class="mt-4 text-base font-semibold text-slate-50">Tài khoản quảng cáo bị hạn chế &amp; mất quyền quản trị BM</h3>
+
+          <div class="mt-4 space-y-4 text-sm text-slate-300">
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Vấn đề</div>
+              <p class="mt-1">BM bị giới hạn, quảng cáo dừng đột ngột, rủi ro mất dữ liệu và lịch sử chiến dịch.</p>
+            </div>
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Giải pháp</div>
+              <p class="mt-1">Rà soát quyền, chuẩn hóa bảo mật (2FA, thiết bị tin cậy), hoàn thiện hồ sơ doanh nghiệp và xử lý theo luồng khiếu nại phù hợp.</p>
+            </div>
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Kết quả</div>
+              <p class="mt-1">Khôi phục quyền quản trị, mở lại khả năng chạy quảng cáo và thiết lập checklist vận hành an toàn cho đội ngũ.</p>
+            </div>
+          </div>
+
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">Quy trình an toàn</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">Bàn giao checklist</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">Hỗ trợ sau xử lý</span>
+          </div>
+        </article>
+
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-center justify-between gap-3">
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">
+              <iconify-icon icon="solar:ads-linear" width="16" height="16" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+              Quảng cáo đa nền tảng
+            </div>
+            <div class="text-xs text-slate-400">TMĐT • Bán lẻ</div>
+          </div>
+
+          <h3 class="mt-4 text-base font-semibold text-slate-50">Chi phí tăng, đơn giảm vì tracking thiếu chuẩn và content không đồng bộ</h3>
+
+          <div class="mt-4 space-y-4 text-sm text-slate-300">
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Vấn đề</div>
+              <p class="mt-1">Không đo đúng chuyển đổi, tối ưu theo cảm tính, tệp thiếu phân tầng.</p>
+            </div>
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Giải pháp</div>
+              <p class="mt-1">Chuẩn hóa GA4/pixel/sự kiện, xây lại cấu trúc chiến dịch theo phễu, A/B test sáng tạo &amp; trang đích.</p>
+            </div>
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Kết quả</div>
+              <p class="mt-1">Tối ưu hiệu suất theo KPI, giảm lãng phí ngân sách và tăng độ ổn định tài khoản quảng cáo.</p>
+            </div>
+          </div>
+
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">Tracking chuẩn</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">A/B test</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">Tối ưu theo dữ liệu</span>
+          </div>
+        </article>
+
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-center justify-between gap-3">
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">
+              <iconify-icon icon="solar:video-frame-play-horizontal-linear" width="16" height="16" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+              Tăng trưởng TikTok
+            </div>
+            <div class="text-xs text-slate-400">Cá nhân • Creator</div>
+          </div>
+
+          <h3 class="mt-4 text-base font-semibold text-slate-50">Kênh thiếu định hướng, nội dung rời rạc, khó ra đơn từ traffic tự nhiên</h3>
+
+          <div class="mt-4 space-y-4 text-sm text-slate-300">
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Vấn đề</div>
+              <p class="mt-1">Không có trụ cột nội dung, bio/CTA yếu, thiếu trang đích tối ưu chuyển đổi.</p>
+            </div>
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Giải pháp</div>
+              <p class="mt-1">Xây dựng content pillars, lịch đăng, tối ưu profile, thiết kế landing page và cấu trúc thu lead/nhắn tin.</p>
+            </div>
+            <div>
+              <div class="text-xs font-semibold text-slate-200">Kết quả</div>
+              <p class="mt-1">Tăng độ nhất quán thương hiệu, cải thiện tỷ lệ chuyển đổi từ traffic và dễ mở rộng sang quảng cáo.</p>
+            </div>
+          </div>
+
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">Chiến lược nội dung</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">Landing page</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">Tối ưu CTA</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="quy-trinh" class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div class="grid gap-10 lg:grid-cols-12 lg:items-start">
+        <div class="lg:col-span-5">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 backdrop-blur">
+            <iconify-icon icon="solar:diagram-up-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+            Quy trình làm việc
+          </div>
+          <h2 class="mt-4 font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">Minh bạch – an toàn – hiệu quả</h2>
+          <p class="mt-3 max-w-xl text-sm text-slate-300 sm:text-base">
+            Chúng tôi vận hành theo quy trình rõ ràng để hạn chế rủi ro, tiết kiệm thời gian và giúp bạn nắm được từng bước triển khai.
+          </p>
+
+          <div class="mt-6 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+            <div class="flex items-start gap-3">
+              <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 ring-1 ring-cyan-400/20">
+                <iconify-icon icon="solar:shield-warning-linear" width="22" height="22" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+              </div>
+              <div>
+                <div class="text-sm font-semibold text-slate-50">Nguyên tắc an toàn</div>
+                <p class="mt-1 text-xs text-slate-300">
+                  Không yêu cầu thông tin không cần thiết. Ưu tiên quyền truy cập tối thiểu. Bàn giao &amp; thu hồi quyền rõ ràng sau khi hoàn tất.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <ol class="grid gap-4">
+            <li class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:bg-white/7">
+              <div class="flex items-start gap-4">
+                <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                  <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">01</span>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Tiếp nhận &amp; phân loại yêu cầu</div>
+                  <p class="mt-2 text-sm text-slate-300">Thu thập thông tin tối thiểu, xác định mục tiêu, thời hạn và mức độ ưu tiên.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:bg-white/7">
+              <div class="flex items-start gap-4">
+                <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                  <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">02</span>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Audit rủi ro &amp; đề xuất phương án</div>
+                  <p class="mt-2 text-sm text-slate-300">Đánh giá nguyên nhân, rủi ro tài khoản, đề xuất phương án và điều kiện triển khai an toàn.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:bg-white/7">
+              <div class="flex items-start gap-4">
+                <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                  <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">03</span>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Ký xác nhận phạm vi &amp; bàn giao quyền</div>
+                  <p class="mt-2 text-sm text-slate-300">Thống nhất phạm vi, mốc thời gian, kênh liên lạc; thiết lập quyền truy cập phù hợp và có lưu vết.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:bg-white/7">
+              <div class="flex items-start gap-4">
+                <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                  <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">04</span>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Triển khai theo checklist &amp; cập nhật tiến độ</div>
+                  <p class="mt-2 text-sm text-slate-300">Thực hiện theo quy trình chuẩn, cập nhật theo từng mốc, hạn chế thay đổi đột ngột gây rủi ro.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:bg-white/7">
+              <div class="flex items-start gap-4">
+                <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                  <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">05</span>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Bàn giao, hướng dẫn vận hành &amp; hỗ trợ</div>
+                  <p class="mt-2 text-sm text-slate-300">Bàn giao cấu hình, tài liệu, khuyến nghị an toàn; hỗ trợ theo chính sách để duy trì ổn định.</p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="bang-gia" class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 backdrop-blur">
+            <iconify-icon icon="solar:tag-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+            Bảng giá linh hoạt
+          </div>
+          <h2 class="mt-4 font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">Chọn gói phù hợp mục tiêu &amp; mức độ ưu tiên</h2>
+          <p class="mt-3 max-w-2xl text-sm text-slate-300 sm:text-base">
+            Với các dịch vụ nhạy cảm như khôi phục tài khoản, chi phí phụ thuộc tình trạng, mức rủi ro và thời gian xử lý. Tất cả gói đều có mô tả phạm vi rõ ràng.
+          </p>
+        </div>
+        <a href="#lien-he" class="inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:opacity-95">
+          Liên hệ để báo giá
+        </a>
+      </div>
+
+      <div class="mt-10 grid gap-5 lg:grid-cols-4">
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-center justify-between">
+            <h3 class="text-base font-semibold text-slate-50">Basic</h3>
+            <span class="rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">Khởi động</span>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">Phù hợp khi bạn cần rà soát nhanh và gợi ý hướng xử lý an toàn.</p>
+          <div class="mt-5 rounded-2xl border border-white/10 bg-black/20 p-4">
+            <div class="text-xs text-slate-300">Chi phí</div>
+            <div class="mt-1 font-[Space_Grotesk] text-xl font-semibold tracking-tight text-slate-50">Liên hệ để báo giá</div>
+          </div>
+          <ul class="mt-5 space-y-3 text-sm text-slate-300">
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(34,211,238,0.9);" stroke-width="1.5"></iconify-icon>Đánh giá tình trạng &amp; rủi ro</li>
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(34,211,238,0.9);" stroke-width="1.5"></iconify-icon>Checklist hành động ưu tiên</li>
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(34,211,238,0.9);" stroke-width="1.5"></iconify-icon>Hướng dẫn bảo mật cơ bản</li>
+          </ul>
+          <a href="#lien-he" class="mt-6 inline-flex w-full items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-4 py-2.5 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+            Nhận tư vấn
+          </a>
+        </article>
+
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-center justify-between">
+            <h3 class="text-base font-semibold text-slate-50">Pro</h3>
+            <span class="rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">Tối ưu</span>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">Dành cho quảng cáo cần cải thiện hiệu suất và ổn định vận hành.</p>
+          <div class="mt-5 rounded-2xl border border-white/10 bg-black/20 p-4">
+            <div class="text-xs text-slate-300">Chi phí</div>
+            <div class="mt-1 font-[Space_Grotesk] text-xl font-semibold tracking-tight text-slate-50">Liên hệ để báo giá</div>
+          </div>
+          <ul class="mt-5 space-y-3 text-sm text-slate-300">
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(96,165,250,0.9);" stroke-width="1.5"></iconify-icon>Thiết lập tracking cơ bản</li>
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(96,165,250,0.9);" stroke-width="1.5"></iconify-icon>Xây cấu trúc chiến dịch theo phễu</li>
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(96,165,250,0.9);" stroke-width="1.5"></iconify-icon>A/B test nội dung &amp; trang đích</li>
+          </ul>
+          <a href="#lien-he" class="mt-6 inline-flex w-full items-center justify-center rounded-2xl bg-white/10 px-4 py-2.5 text-sm font-medium text-slate-50 transition hover:bg-white/15">
+            Nhận lộ trình
+          </a>
+        </article>
+
+        <article class="relative rounded-3xl border border-cyan-400/20 bg-gradient-to-b from-cyan-500/10 to-blue-600/5 p-6 backdrop-blur">
+          <div class="absolute -top-3 right-6 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 px-3 py-1 text-xs font-semibold text-slate-950 shadow-[0_10px_30px_rgba(34,211,238,0.22)]">
+            Khuyến nghị
+          </div>
+          <div class="flex items-center justify-between">
+            <h3 class="text-base font-semibold text-slate-50">Enterprise</h3>
+            <span class="rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">Mở rộng</span>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">Cho doanh nghiệp cần vận hành đa kênh, quy trình và báo cáo chặt chẽ.</p>
+          <div class="mt-5 rounded-2xl border border-white/10 bg-black/20 p-4">
+            <div class="text-xs text-slate-300">Chi phí</div>
+            <div class="mt-1 font-[Space_Grotesk] text-xl font-semibold tracking-tight text-slate-50">Liên hệ để báo giá</div>
+          </div>
+          <ul class="mt-5 space-y-3 text-sm text-slate-300">
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>Chuẩn hóa tài khoản, BM, quyền truy cập</li>
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>Dashboard &amp; báo cáo theo KPI</li>
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>Quy trình vận hành &amp; đào tạo team</li>
+          </ul>
+          <a href="#lien-he" class="mt-6 inline-flex w-full items-center justify-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-2.5 text-sm font-semibold text-slate-950 transition hover:opacity-95">
+            Liên hệ để báo giá
+          </a>
+        </article>
+
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-center justify-between">
+            <h3 class="text-base font-semibold text-slate-50">Theo nhu cầu</h3>
+            <span class="rounded-full border border-white/10 bg-black/10 px-3 py-1 text-xs text-slate-200">Linh hoạt</span>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">Nếu bạn có bài toán đặc thù, chúng tôi thiết kế phạm vi riêng.</p>
+          <div class="mt-5 rounded-2xl border border-white/10 bg-black/20 p-4">
+            <div class="text-xs text-slate-300">Chi phí</div>
+            <div class="mt-1 font-[Space_Grotesk] text-xl font-semibold tracking-tight text-slate-50">Liên hệ để báo giá</div>
+          </div>
+          <ul class="mt-5 space-y-3 text-sm text-slate-300">
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(148,163,184,0.95);" stroke-width="1.5"></iconify-icon>Thiết kế website/landing theo mục tiêu</li>
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(148,163,184,0.95);" stroke-width="1.5"></iconify-icon>Tối ưu chuyển đổi &amp; nội dung</li>
+            <li class="flex items-start gap-2"><iconify-icon icon="solar:check-circle-linear" width="18" height="18" style="color: rgba(148,163,184,0.95);" stroke-width="1.5"></iconify-icon>Tích hợp form/CRM theo nhu cầu</li>
+          </ul>
+          <a href="#lien-he" class="mt-6 inline-flex w-full items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-4 py-2.5 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+            Nhận báo giá nhanh
+          </a>
+        </article>
+      </div>
+
+      <div class="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div class="flex items-start gap-3">
+            <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+              <iconify-icon icon="solar:info-circle-linear" width="22" height="22" style="color: rgba(148,163,184,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-slate-50">Lưu ý quan trọng</div>
+              <p class="mt-1 text-xs text-slate-300">Giá phụ thuộc tình trạng thực tế, mức độ phức tạp và thời gian yêu cầu. Chúng tôi chỉ nhận khi đánh giá rủi ro phù hợp.</p>
+            </div>
+          </div>
+          <div class="flex gap-3">
+            <a href="#faq" class="inline-flex items-center justify-center rounded-2xl bg-white/10 px-5 py-2.5 text-sm font-medium text-slate-50 transition hover:bg-white/15">Xem FAQ</a>
+            <a href="#lien-he" class="inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:opacity-95">Nhận tư vấn miễn phí</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 backdrop-blur">
+            <iconify-icon icon="solar:like-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+            Khách hàng nói gì
+          </div>
+          <h2 class="mt-4 font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">Niềm tin đến từ quy trình &amp; kết quả</h2>
+          <p class="mt-3 max-w-2xl text-sm text-slate-300 sm:text-base">
+            Một số phản hồi thực tế từ khách hàng đã xử lý tài khoản, tối ưu quảng cáo và xây hệ thống online.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-10 grid gap-5 lg:grid-cols-3">
+        <figure class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-start justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">HN</span>
+              </div>
+              <div>
+                <div class="text-sm font-semibold text-slate-50">Chị Hương N.</div>
+                <div class="text-xs text-slate-400">Chủ shop mỹ phẩm</div>
+              </div>
+            </div>
+            <div class="inline-flex items-center gap-1 text-xs text-slate-300">
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+          </div>
+          <blockquote class="mt-4 text-sm text-slate-300">
+            “Mình bị hạn chế quảng cáo, trước đó tự xử lý nhiều lần không được. Bên anh Duy tư vấn rất rõ, làm theo checklist và cập nhật tiến độ liên tục. Quan trọng là cảm giác an toàn và minh bạch.”
+          </blockquote>
+          <figcaption class="mt-4 text-xs text-slate-400">Kết quả: khôi phục vận hành quảng cáo, ổn định tài khoản</figcaption>
+        </figure>
+
+        <figure class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-start justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">QK</span>
+              </div>
+              <div>
+                <div class="text-sm font-semibold text-slate-50">Anh Quốc K.</div>
+                <div class="text-xs text-slate-400">Marketing nội bộ</div>
+              </div>
+            </div>
+            <div class="inline-flex items-center gap-1 text-xs text-slate-300">
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+          </div>
+          <blockquote class="mt-4 text-sm text-slate-300">
+            “Điểm mình đánh giá cao là phần tracking và cấu trúc chiến dịch. Sau khi chuẩn hóa, team tối ưu dễ hơn hẳn, báo cáo rõ ràng. Không hứa hẹn quá đà, chỉ nói đúng những gì làm được.”
+          </blockquote>
+          <figcaption class="mt-4 text-xs text-slate-400">Kết quả: tối ưu theo KPI, giảm lãng phí ngân sách</figcaption>
+        </figure>
+
+        <figure class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+          <div class="flex items-start justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">TL</span>
+              </div>
+              <div>
+                <div class="text-sm font-semibold text-slate-50">Chị Thảo L.</div>
+                <div class="text-xs text-slate-400">Dịch vụ đào tạo</div>
+              </div>
+            </div>
+            <div class="inline-flex items-center gap-1 text-xs text-slate-300">
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+              <iconify-icon icon="solar:star-linear" width="16" height="16" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+            </div>
+          </div>
+          <blockquote class="mt-4 text-sm text-slate-300">
+            “Landing page làm nhanh mà rất ‘ra đơn’. Bố cục rõ, CTA mạnh nhưng vẫn sang, tốc độ tải tốt. Quan trọng là có tư duy bán hàng, không chỉ làm cho đẹp.”
+          </blockquote>
+          <figcaption class="mt-4 text-xs text-slate-400">Kết quả: tăng tỷ lệ chuyển đổi từ quảng cáo &amp; organic</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div class="grid gap-10 lg:grid-cols-12 lg:items-start">
+        <div class="lg:col-span-5">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 backdrop-blur">
+            <iconify-icon icon="solar:question-circle-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+            Câu hỏi thường gặp
+          </div>
+          <h2 class="mt-4 font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">Giải đáp để bạn yên tâm trước khi bắt đầu</h2>
+          <p class="mt-3 max-w-xl text-sm text-slate-300 sm:text-base">
+            Tập trung vào an toàn tài khoản, thời gian xử lý, bảo mật thông tin và chính sách hỗ trợ—rõ ràng ngay từ đầu.
+          </p>
+
+          <div class="mt-6 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+            <div class="flex items-start gap-3">
+              <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                <iconify-icon icon="solar:chat-square-linear" width="22" height="22" style="color: rgba(148,163,184,0.95);" stroke-width="1.5"></iconify-icon>
+              </div>
+              <div>
+                <div class="text-sm font-semibold text-slate-50">Bạn có câu hỏi riêng?</div>
+                <p class="mt-1 text-xs text-slate-300">Gửi tình trạng hiện tại, chúng tôi phản hồi với phương án và lưu ý rủi ro phù hợp.</p>
+                <a href="#lien-he" class="mt-3 inline-flex items-center gap-2 text-xs font-semibold text-cyan-300 hover:text-cyan-200 transition">
+                  Gửi câu hỏi
+                  <iconify-icon icon="solar:arrow-right-linear" width="16" height="16" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <div class="grid gap-4">
+            <details class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                <span class="text-sm font-semibold text-slate-50">Dịch vụ khôi phục tài khoản có an toàn không?</span>
+                <span class="flex h-9 w-9 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10 transition group-open:bg-white/10">
+                  <iconify-icon icon="solar:plus-linear" class="group-open:hidden" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                  <iconify-icon icon="solar:minus-linear" class="hidden group-open:block" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                </span>
+              </summary>
+              <p class="mt-4 text-sm text-slate-300">
+                Chúng tôi ưu tiên quy trình đúng chính sách, quyền truy cập tối thiểu, có lưu vết thao tác và hướng dẫn bảo mật sau xử lý. Mọi trường hợp đều được đánh giá rủi ro trước khi nhận triển khai.
+              </p>
+            </details>
+
+            <details class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                <span class="text-sm font-semibold text-slate-50">Thời gian xử lý thường mất bao lâu?</span>
+                <span class="flex h-9 w-9 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10 transition group-open:bg-white/10">
+                  <iconify-icon icon="solar:plus-linear" class="group-open:hidden" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                  <iconify-icon icon="solar:minus-linear" class="hidden group-open:block" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                </span>
+              </summary>
+              <p class="mt-4 text-sm text-slate-300">
+                Tùy tình trạng và nền tảng. Có trường hợp xử lý nhanh trong thời gian ngắn, cũng có trường hợp cần chờ phản hồi hệ thống. Chúng tôi sẽ cung cấp mốc thời gian dự kiến và cập nhật theo từng bước.
+              </p>
+            </details>
+
+            <details class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                <span class="text-sm font-semibold text-slate-50">Thông tin của tôi có được bảo mật không?</span>
+                <span class="flex h-9 w-9 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10 transition group-open:bg-white/10">
+                  <iconify-icon icon="solar:plus-linear" class="group-open:hidden" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                  <iconify-icon icon="solar:minus-linear" class="hidden group-open:block" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                </span>
+              </summary>
+              <p class="mt-4 text-sm text-slate-300">
+                Có. Chúng tôi chỉ yêu cầu thông tin cần thiết để xử lý và tư vấn. Không chia sẻ cho bên thứ ba. Quyền truy cập sẽ được thu hồi sau khi hoàn tất, kèm hướng dẫn bảo mật để bạn tự kiểm soát.
+              </p>
+            </details>
+
+            <details class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                <span class="text-sm font-semibold text-slate-50">Chính sách hỗ trợ sau khi bàn giao như thế nào?</span>
+                <span class="flex h-9 w-9 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10 transition group-open:bg-white/10">
+                  <iconify-icon icon="solar:plus-linear" class="group-open:hidden" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                  <iconify-icon icon="solar:minus-linear" class="hidden group-open:block" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                </span>
+              </summary>
+              <p class="mt-4 text-sm text-slate-300">
+                Chúng tôi hướng dẫn vận hành và cung cấp checklist phòng ngừa tái phạm. Với gói theo tháng, có hỗ trợ tối ưu và theo dõi định kỳ. Mọi nội dung hỗ trợ đều được ghi rõ trong phạm vi dịch vụ.
+              </p>
+            </details>
+
+            <details class="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
+                <span class="text-sm font-semibold text-slate-50">Tôi cần chuẩn bị gì trước khi làm việc?</span>
+                <span class="flex h-9 w-9 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10 transition group-open:bg-white/10">
+                  <iconify-icon icon="solar:plus-linear" class="group-open:hidden" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                  <iconify-icon icon="solar:minus-linear" class="hidden group-open:block" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                </span>
+              </summary>
+              <p class="mt-4 text-sm text-slate-300">
+                Bạn chỉ cần mô tả tình trạng, mục tiêu và thời hạn. Nếu là quảng cáo/website, chuẩn bị thêm sản phẩm, chân dung khách hàng và tài nguyên hiện có. Chúng tôi sẽ gửi checklist cụ thể theo trường hợp.
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="lien-he" class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur sm:p-10">
+        <div class="grid gap-10 lg:grid-cols-12 lg:items-start">
+          <div class="lg:col-span-5">
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/10 px-3 py-1.5 text-xs text-slate-200">
+              <iconify-icon icon="solar:mailbox-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+              Trang liên hệ
+            </div>
+
+            <h2 class="mt-4 font-[Space_Grotesk] text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">Nhận tư vấn đúng hướng trong hôm nay</h2>
+            <p class="mt-3 text-sm text-slate-300 sm:text-base">
+              Gửi tình trạng và mục tiêu của bạn. Chúng tôi phản hồi với phương án triển khai, lưu ý rủi ro và lộ trình phù hợp.
+            </p>
+
+            <div class="mt-8 grid gap-3">
+              <a href="https://www.facebook.com/NguyenThaiDuy.Dev" target="_blank" rel="noreferrer" class="flex items-center justify-between rounded-2xl border border-white/10 bg-black/20 px-5 py-4 transition hover:bg-black/30">
+                <div class="flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                    <iconify-icon icon="solar:chat-round-dots-linear" width="22" height="22" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+                  </div>
+                  <div>
+                    <div class="text-sm font-semibold text-slate-50">Facebook</div>
+                    <div class="text-xs text-slate-400">facebook.com/NguyenThaiDuy.Dev</div>
+                  </div>
+                </div>
+                <iconify-icon icon="solar:arrow-right-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+              </a>
+
+              <a href="mailto:frostagency.vn@gmail.com" class="flex items-center justify-between rounded-2xl border border-white/10 bg-black/20 px-5 py-4 transition hover:bg-black/30">
+                <div class="flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                    <iconify-icon icon="solar:letter-linear" width="22" height="22" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+                  </div>
+                  <div>
+                    <div class="text-sm font-semibold text-slate-50">Email</div>
+                    <div class="text-xs text-slate-400">frostagency.vn@gmail.com</div>
+                  </div>
+                </div>
+                <iconify-icon icon="solar:arrow-right-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+              </a>
+
+              <a href="https://zalo.me/0865906670" target="_blank" rel="noreferrer" class="flex items-center justify-between rounded-2xl border border-white/10 bg-black/20 px-5 py-4 transition hover:bg-black/30">
+                <div class="flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                    <iconify-icon icon="solar:smartphone-linear" width="22" height="22" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+                  </div>
+                  <div>
+                    <div class="text-sm font-semibold text-slate-50">Zalo</div>
+                    <div class="text-xs text-slate-400">zalo.me/0865906670</div>
+                  </div>
+                </div>
+                <iconify-icon icon="solar:arrow-right-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+              </a>
+
+              <a href="tel:0865906670" class="flex items-center justify-between rounded-2xl border border-white/10 bg-black/20 px-5 py-4 transition hover:bg-black/30">
+                <div class="flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                    <iconify-icon icon="solar:phone-calling-linear" width="22" height="22" style="color: rgba(52,211,153,0.95);" stroke-width="1.5"></iconify-icon>
+                  </div>
+                  <div>
+                    <div class="text-sm font-semibold text-slate-50">Hotline</div>
+                    <div class="text-xs text-slate-400">0865 906 670</div>
+                  </div>
+                </div>
+                <iconify-icon icon="solar:arrow-right-linear" width="18" height="18" style="color: rgba(148,163,184,0.9);" stroke-width="1.5"></iconify-icon>
+              </a>
+            </div>
+
+            <div class="mt-8 rounded-3xl border border-white/10 bg-gradient-to-r from-cyan-500/10 to-blue-600/10 p-6">
+              <div class="flex items-start gap-3">
+                <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                  <iconify-icon icon="solar:shield-check-linear" width="22" height="22" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-50">Cam kết bảo mật &amp; quyền truy cập tối thiểu</div>
+                  <p class="mt-1 text-xs text-slate-300">
+                    Chỉ yêu cầu thông tin cần thiết để tư vấn/xử lý. Nếu cần truy cập, chúng tôi ưu tiên phân quyền đúng vai trò và thu hồi sau khi hoàn tất.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7">
+            <div class="rounded-3xl border border-white/10 bg-black/20 p-6 sm:p-8">
+              <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <h3 class="font-[Space_Grotesk] text-xl font-semibold tracking-tight text-slate-50">Gửi yêu cầu tư vấn</h3>
+                  <p class="mt-1 text-sm text-slate-300">Điền form dưới đây. Chúng tôi phản hồi trong thời gian sớm nhất (giờ làm việc).</p>
+                </div>
+                <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">
+                  <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+                  Ưu tiên phản hồi nhanh
+                </div>
+              </div>
+
+              <form id="contactForm" class="mt-6 grid gap-4" autocomplete="on">
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <label class="grid gap-2">
+                    <span class="text-xs font-semibold text-slate-200">Họ và tên</span>
+                    <input name="name" required="" placeholder="VD: Nguyễn Văn A" class="h-12 w-full rounded-2xl border border-white/10 bg-white/5 px-4 text-sm text-slate-50 placeholder:text-slate-400 outline-none ring-0 transition focus:border-cyan-400/30 focus:bg-white/7">
+                  </label>
+
+                  <label class="grid gap-2">
+                    <span class="text-xs font-semibold text-slate-200">Số điện thoại / Zalo</span>
+                    <input name="phone" inputmode="tel" required="" placeholder="VD: 0865 906 670" class="h-12 w-full rounded-2xl border border-white/10 bg-white/5 px-4 text-sm text-slate-50 placeholder:text-slate-400 outline-none transition focus:border-cyan-400/30 focus:bg-white/7">
+                  </label>
+                </div>
+
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <label class="grid gap-2">
+                    <span class="text-xs font-semibold text-slate-200">Email (tuỳ chọn)</span>
+                    <input name="email" type="email" placeholder="VD: ban@congty.com" class="h-12 w-full rounded-2xl border border-white/10 bg-white/5 px-4 text-sm text-slate-50 placeholder:text-slate-400 outline-none transition focus:border-cyan-400/30 focus:bg-white/7">
+                  </label>
+
+                  <label class="grid gap-2">
+                    <span class="text-xs font-semibold text-slate-200">Dịch vụ quan tâm</span>
+                    <select name="service" class="h-12 w-full appearance-none rounded-2xl border border-white/10 bg-white/5 px-4 text-sm text-slate-50 outline-none transition focus:border-cyan-400/30 focus:bg-white/7">
+                      <option class="bg-[#050816]" value="Khôi phục tài khoản">Khôi phục tài khoản</option>
+                      <option class="bg-[#050816]" value="Chạy quảng cáo">Chạy quảng cáo</option>
+                      <option class="bg-[#050816]" value="Digital Marketing tổng thể">Digital Marketing tổng thể</option>
+                      <option class="bg-[#050816]" value="Tài nguyên mạng xã hội">Tài nguyên mạng xã hội</option>
+                      <option class="bg-[#050816]" value="Website/Landing Page">Website/Landing Page</option>
+                      <option class="bg-[#050816]" value="Khác">Khác</option>
+                    </select>
+                  </label>
+                </div>
+
+                <label class="grid gap-2">
+                  <span class="text-xs font-semibold text-slate-200">Mô tả tình trạng / mục tiêu</span>
+                  <textarea name="message" required="" rows="5" placeholder="VD: Tài khoản bị hạn chế quảng cáo từ hôm qua. Mục tiêu: khôi phục &amp; tối ưu vận hành an toàn. Thời hạn: cần chạy lại trong 48h..." class="w-full resize-y rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-50 placeholder:text-slate-400 outline-none transition focus:border-cyan-400/30 focus:bg-white/7"></textarea>
+                </label>
+
+                <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                  <label class="inline-flex items-start gap-3 text-xs text-slate-300">
+                    <input id="consent" type="checkbox" class="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/10 text-cyan-400 focus:ring-cyan-400/30" required="">
+                    <span>
+                      Tôi đồng ý chia sẻ thông tin để nhận tư vấn. Thông tin được bảo mật và chỉ dùng cho mục đích hỗ trợ.
+                    </span>
+                  </label>
+
+                  <div class="flex flex-col gap-3 sm:flex-row">
+                    <button type="submit" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 text-sm font-semibold text-slate-950 shadow-[0_12px_40px_rgba(34,211,238,0.18)] transition hover:opacity-95">
+                      <iconify-icon icon="solar:paper-plane-linear" width="18" height="18" style="color: rgba(2,6,23,0.95);" stroke-width="1.5"></iconify-icon>
+                      Gửi yêu cầu
+                    </button>
+                    <a id="quickZalo" href="https://zalo.me/0865906670" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-6 py-3 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+                      <iconify-icon icon="solar:chat-round-dots-linear" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                      Chat Zalo
+                    </a>
+                  </div>
+                </div>
+
+                <p id="formStatus" class="hidden text-sm"></p>
+
+                <div class="mt-2 grid gap-3 sm:grid-cols-3">
+                  <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                    <div class="text-xs font-semibold text-slate-200">Phản hồi</div>
+                    <div class="mt-1 text-xs text-slate-300">Trong giờ làm việc: ưu tiên nhanh</div>
+                  </div>
+                  <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                    <div class="text-xs font-semibold text-slate-200">Phạm vi</div>
+                    <div class="mt-1 text-xs text-slate-300">Rõ ràng trước khi triển khai</div>
+                  </div>
+                  <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                    <div class="text-xs font-semibold text-slate-200">Bảo mật</div>
+                    <div class="mt-1 text-xs text-slate-300">Quyền tối thiểu, có thu hồi</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="mt-6 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+              <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div class="flex items-start gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                    <iconify-icon icon="solar:calendar-linear" width="22" height="22" style="color: rgba(148,163,184,0.95);" stroke-width="1.5"></iconify-icon>
+                  </div>
+                  <div>
+                    <div class="text-sm font-semibold text-slate-50">Bạn muốn hẹn lịch trao đổi?</div>
+                    <p class="mt-1 text-xs text-slate-300">Gửi khung giờ phù hợp, chúng tôi xác nhận lại qua Zalo/điện thoại.</p>
+                  </div>
+                </div>
+                <a href="tel:0865906670" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/10 px-5 py-2.5 text-sm font-medium text-slate-50 transition hover:bg-white/15">
+                  <iconify-icon icon="solar:phone-linear" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+                  Gọi ngay
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="relative z-10">
+    <div class="mx-auto max-w-7xl px-6 pb-10">
+      <div class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur sm:p-8">
+        <div class="grid gap-8 lg:grid-cols-12">
+          <div class="lg:col-span-5">
+            <div class="flex items-center gap-3">
+              <div class="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/5">
+                <span class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">ND</span>
+              </div>
+              <div>
+                <div class="font-[Space_Grotesk] text-sm font-semibold tracking-tight text-slate-50">Nguyễn Thái Duy</div>
+                <div class="text-xs text-slate-300">Digital Marketing &amp; Dịch vụ Mạng Xã Hội</div>
+              </div>
+            </div>
+            <p class="mt-4 max-w-md text-sm text-slate-300">
+              Tập trung xử lý bài toán thực tế: khôi phục tài khoản, tối ưu quảng cáo, xây dựng website/landing page và hệ thống tracking—minh bạch, an toàn, có đo lường.
+            </p>
+
+            <div class="mt-5 flex flex-wrap items-center gap-3">
+              <a href="https://www.facebook.com/NguyenThaiDuy.Dev" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/20 px-4 py-2 text-sm text-slate-200 transition hover:bg-black/30">
+                <iconify-icon icon="solar:chat-round-dots-linear" width="18" height="18" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+                Facebook
+              </a>
+              <a href="mailto:frostagency.vn@gmail.com" class="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/20 px-4 py-2 text-sm text-slate-200 transition hover:bg-black/30">
+                <iconify-icon icon="solar:letter-linear" width="18" height="18" style="color: rgba(96,165,250,0.95);" stroke-width="1.5"></iconify-icon>
+                Email
+              </a>
+              <a href="https://zalo.me/0865906670" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/20 px-4 py-2 text-sm text-slate-200 transition hover:bg-black/30">
+                <iconify-icon icon="solar:smartphone-linear" width="18" height="18" style="color: rgba(129,140,248,0.95);" stroke-width="1.5"></iconify-icon>
+                Zalo
+              </a>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7">
+            <div class="grid gap-6 sm:grid-cols-3">
+              <div>
+                <div class="text-xs font-semibold text-slate-200">Điều hướng</div>
+                <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                  <li><a class="hover:text-slate-50 transition" href="#dich-vu">Dịch vụ</a></li>
+                  <li><a class="hover:text-slate-50 transition" href="#du-an">Dự án</a></li>
+                  <li><a class="hover:text-slate-50 transition" href="#quy-trinh">Quy trình</a></li>
+                  <li><a class="hover:text-slate-50 transition" href="#bang-gia">Gói dịch vụ</a></li>
+                  <li><a class="hover:text-slate-50 transition" href="#faq">FAQ</a></li>
+                  <li><a class="hover:text-slate-50 transition" href="#lien-he">Liên hệ</a></li>
+                </ul>
+              </div>
+
+              <div>
+                <div class="text-xs font-semibold text-slate-200">Dịch vụ</div>
+                <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                  <li><a class="hover:text-slate-50 transition" href="#dich-vu">Khôi phục tài khoản</a></li>
+                  <li><a class="hover:text-slate-50 transition" href="#dich-vu">Quảng cáo đa nền tảng</a></li>
+                  <li><a class="hover:text-slate-50 transition" href="#dich-vu">Digital Marketing tổng thể</a></li>
+                  <li><a class="hover:text-slate-50 transition" href="#dich-vu">Website/Landing Page</a></li>
+                </ul>
+              </div>
+
+              <div>
+                <div class="text-xs font-semibold text-slate-200">Chính sách</div>
+                <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                  <li class="text-slate-400">Bảo mật thông tin</li>
+                  <li class="text-slate-400">Phạm vi &amp; đối soát</li>
+                  <li class="text-slate-400">Hỗ trợ sau bàn giao</li>
+                </ul>
+                <div class="mt-4 rounded-2xl border border-white/10 bg-black/20 p-4">
+                  <div class="text-xs font-semibold text-slate-200">Giờ làm việc</div>
+                  <div class="mt-1 text-xs text-slate-300">T2–T7 • 09:00–18:00</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 flex flex-col gap-3 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
+              <p class="text-xs text-slate-400">© <span id="year"></span> Nguyễn Thái Duy. All rights reserved.</p>
+              <a href="#top" class="inline-flex items-center gap-2 text-xs font-semibold text-cyan-300 hover:text-cyan-200 transition">
+                Lên đầu trang
+                <iconify-icon icon="solar:arrow-up-linear" width="16" height="16" style="color: rgba(34,211,238,0.95);" stroke-width="1.5"></iconify-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="mt-6 text-center text-xs text-slate-500">
+        Lưu ý: Nội dung trên trang mang tính chất giới thiệu dịch vụ. Kết quả phụ thuộc tình trạng thực tế và chính sách nền tảng tại thời điểm xử lý.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating actions -->
+  <div class="fixed bottom-5 right-5 z-20 flex flex-col gap-3">
+    <a href="#lien-he" class="group inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-3 text-sm font-semibold text-slate-950 shadow-[0_18px_60px_rgba(34,211,238,0.20)] transition hover:opacity-95">
+      <span class="inline-flex items-center gap-2">
+        <iconify-icon icon="solar:chat-round-linear" width="18" height="18" style="color: rgba(2,6,23,0.95);" stroke-width="1.5"></iconify-icon>
+        Tư vấn
+      </span>
+    </a>
+    <a href="tel:0865906670" class="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-slate-50 backdrop-blur transition hover:bg-white/10">
+      <span class="inline-flex items-center gap-2">
+        <iconify-icon icon="solar:phone-calling-linear" width="18" height="18" style="color: rgba(248,250,252,0.92);" stroke-width="1.5"></iconify-icon>
+        Gọi
+      </span>
+    </a>
+  </div>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    menuBtn?.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+      menuBtn.setAttribute('aria-expanded', String(isHidden));
+      menuBtn.setAttribute('aria-label', isHidden ? 'Đóng menu' : 'Mở menu');
+    });
+
+    // Close mobile menu after clicking a link
+    mobileMenu?.querySelectorAll('a[href^="#"]').forEach((a) => {
+      a.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    // Smooth scroll (respect reduced motion)
+    const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener('click', (e) => {
+        const id = anchor.getAttribute('href');
+        if (!id || id === '#') return;
+        const target = document.querySelector(id);
+        if (!target) return;
+        e.preventDefault();
+        target.scrollIntoView({ behavior: prefersReduced ? 'auto' : 'smooth', block: 'start' });
+        history.pushState(null, '', id);
+      });
+    });
+
+    // Contact form: create a mailto with prefilled content (no backend required)
+    const form = document.getElementById('contactForm');
+    const statusEl = document.getElementById('formStatus');
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const data = new FormData(form);
+
+      const name = (data.get('name') || '').toString().trim();
+      const phone = (data.get('phone') || '').toString().trim();
+      const email = (data.get('email') || '').toString().trim();
+      const service = (data.get('service') || '').toString().trim();
+      const message = (data.get('message') || '').toString().trim();
+
+      if (!name || !phone || !service || !message) {
+        statusEl.className = 'text-sm text-rose-300';
+        statusEl.textContent = 'Vui lòng điền đầy đủ thông tin bắt buộc.';
+        statusEl.classList.remove('hidden');
+        return;
+      }
+
+      const subject = encodeURIComponent(`[Tư vấn] ${service} - ${name}`);
+      const body = encodeURIComponent(
+`Họ tên: ${name}
+SĐT/Zalo: ${phone}
+Email: ${email || '(không cung cấp)'}
+Dịch vụ: ${service}
+
+Mô tả tình trạng/mục tiêu:
+${message}
+
+— Gửi từ website Nguyen Thai Duy`
+      );
+
+      const mailto = `mailto:frostagency.vn@gmail.com?subject=${subject}&body=${body}`;
+
+      statusEl.className = 'text-sm text-emerald-300';
+      statusEl.textContent = 'Đã tạo email nháp. Nếu trình duyệt không mở ứng dụng mail, vui lòng liên hệ qua Zalo/Hotline.';
+      statusEl.classList.remove('hidden');
+
+      window.location.href = mailto;
+      form.reset();
+    });
+  </script>
+
+</body></html>
